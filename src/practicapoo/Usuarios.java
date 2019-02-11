@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class Usuarios implements Serializable{
     //Declaracion de Variables
-    private ArrayList <Usuario> lista_Usuarios;
-    private Clasificacion ranking;
+    ArrayList <Usuario> lista_Usuarios;
+    Clasificacion ranking;
     
     //Constructores
     public Usuarios(){
@@ -19,10 +19,6 @@ public class Usuarios implements Serializable{
         this.ranking = ranking;
     }
     
-    public Usuarios(Usuarios u){
-        lista_Usuarios = u.getLista_Usuarios();
-        ranking = u.getRanking();
-    }
     
     //GET
     

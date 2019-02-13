@@ -85,7 +85,7 @@ public class Item implements Serializable {
         this.perdidas = perdidas;
     }
     
-    public void setPorcentaje_victorias(double procentaje_victorias){
+    public void setPorcentaje_victorias(double porcentaje_victorias){
         this.porcentaje_victorias = porcentaje_victorias;
     }
     
